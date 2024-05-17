@@ -1,5 +1,9 @@
 export class Player {
-  constructor() {
-    
-  }
-  }
+  constructor(name,level) {
+    this.name = name
+    this.info = function(){
+      console.log(this.name)
+}
+}
+
+}
